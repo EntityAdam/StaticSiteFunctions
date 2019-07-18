@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Form Submission</title>
+    <style>
+        dt {
+            font-weight: 600;
+        }
+
+        dd {
+            line-height: 1.4rem;
+        }
+    </style>
+</head>
+<body>
+    <p>Good Afternoon {{FromDisplayName}},</p>
+    <p>A user has filled out your contact form on {{Hostname}} and provided the following information</p>
+    <dl>
+        <dt>Name</dt>
+        <dd>{{Name}}</dd>
+        <dt>Reply Email Address</dt>
+        <dd><a href="mailto:{{EmailAddress}}">{{EmailAddress}}</a></dd>
+        <dt>Message</dt>
+        <dd><p><i>{{Message}}</i></p></dd>
+    </dl>
+</body>
+</html>

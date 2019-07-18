@@ -1,0 +1,11 @@
+{
+  "yourdomain.com": {
+    "fromDisplayName": "Product Owner",
+    "fromAddress": "sales@yourdomain.com.com",
+    "confirmationSubject": "Business Name: Confirm your contact form submission",
+    "confirmedSubject": "Business Name: New contact form submission",
+    "confirmationErrorUrl": "https://www.yourdomain.com/error.html",
+    "confirmationSuccessUrl": "https://www.yourdmain.com/success.html",
+    "endpoint": "https://yourfunctionsendpoint.azurewebsites.net/api/confirm?id={{identifier}}&hostname=yourdomain.com"
+  }
+}
